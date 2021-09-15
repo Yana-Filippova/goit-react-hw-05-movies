@@ -1,0 +1,14 @@
+.item {
+  margin-bottom: 5px;
+}
+
+.author {
+  margin-bottom: 5px;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  color: #e3f309cb;
+}
+
+.review {
+  text-align: justify;
+}

@@ -1,0 +1,45 @@
+.form {
+  margin: 30px auto 20px;
+  text-align: center;
+}
+
+.input {
+  padding: 8px 20px;
+  border-radius: 8px;
+  outline: #527c82;
+  border-color: transparent;
+}
+
+.button {
+  margin: 0px 10px 10px;
+  padding: 10px 20px 10px;
+  background-color: transparent;
+  border: 2px solid #e74c3c;
+  cursor: pointer;
+  font-size: 0.95em;
+  font-weight: 600;
+  line-height: 1;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  cursor: pointer;
+  background-color: #527c82;
+  border-color: #527c82;
+  border-radius: 8px;
+  color: #fff;
+  box-shadow: inset rgba(0, 0, 0, 0.541) -3px -3px 8px,
+    inset rgba(255, 253, 253, 0.9) 3px 3px 8px,
+    rgba(0, 0, 0, 0.8) 3px 3px 8px -3px;
+  transition: all 150ms ease-in-out;
+}
+
+.button:hover {
+  background-color: rgba(0, 0, 0, 0.356);
+  color: #fff;
+  box-shadow: 0 0 10px 0 #527c82 inset, 0 0 10px 4px #527c82;
+}
+
+.button:hover,
+.button:focus {
+  outline: 0;
+}
